@@ -12,7 +12,219 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-	font-family: "Avenir", "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+	
+
+    font-family: 'Press Start 2P', cursive;
+
+
+}
+
+$red: #f93801;
+$orange: #ffab4a;
+$white: #eee;
+
+html {
+  padding: 2em;
+  background: #111;
+}
+.zelda-fire {
+  font-size: .50em; // controls the size
+
+  &:after {
+    content: '';
+    display: block;
+    height: 1em;
+    width: 1em;
+    box-shadow:
+
+      3em 0em $red,
+      7em 0em $red,
+
+      3em 1em $red,
+      8em 1em $red,
+      11em 1em $red,
+      13em 1em $orange,
+
+      6em 2em $red,
+      8em 2em $red,
+      9em 2em $red,
+      12em 2em $red,
+      14em 2em $red,
+
+      3em 3em $orange,
+      6em 3em $red,
+      7em 3em $red,
+      8em 3em $red,
+      9em 3em $red,
+      10em 3em $red,
+      12em 3em $red,
+      14em 3em $red,
+
+      4em 4em $red,
+      6em 4em $red,
+      7em 4em $red,
+      8em 4em $red,
+      9em 4em $red,
+      10em 4em $red,
+      11em 4em $red,
+      12em 4em $red,
+
+      2em 5em $red,
+      4em 5em $red,
+      5em 5em $red,
+      7em 5em $red,
+      8em 5em $red,
+      9em 5em $red,
+      10em 5em $orange,
+      11em 5em $red,
+      12em 5em $red,
+      14em 5em $red,
+      15em 5em $orange,
+
+      2em 6em $red,
+      3em 6em $red,
+      4em 6em $red,
+      5em 6em $red,
+      6em 6em $orange,
+      7em 6em $red,
+      8em 6em $red,
+      9em 6em $red,
+      10em 6em $red,
+      11em 6em $orange,
+      12em 6em $red,
+      13em 6em $red,
+      14em 6em $red,
+      15em 6em $red,
+
+      1em 7em $red,
+      3em 7em $red,
+      4em 7em $red,
+      5em 7em $red,
+      6em 7em $red,
+      7em 7em $red,
+      8em 7em $red,
+      9em 7em $orange,
+      10em 7em $red,
+      11em 7em $orange,
+      12em 7em $red,
+      13em 7em $red,
+      14em 7em $red,
+      15em 7em $red,
+
+      1em 8em $red,
+      3em 8em $red,
+      4em 8em $red,
+      5em 8em $red,
+      6em 8em $red,
+      7em 8em $orange,
+      8em 8em $red,
+      9em 8em $orange,
+      10em 8em $red,
+      11em 8em $orange,
+      12em 8em $orange,
+      13em 8em $red,
+      14em 8em $red,
+      15em 8em $red,
+
+      1em 9em $red,
+      2em 9em $red,
+      3em 9em $red,
+      4em 9em $red,
+      5em 9em $red,
+      6em 9em $red,
+      7em 9em $orange,
+      8em 9em $red,
+      9em 9em $orange,
+      10em 9em $orange,
+      11em 9em $orange,
+      12em 9em $orange,
+      13em 9em $orange,
+      14em 9em $red,
+      16em 9em $red,
+
+      1em 10em $red,
+      2em 10em $red,
+      3em 10em $red,
+      4em 10em $red,
+      5em 10em $orange,
+      6em 10em $orange,
+      7em 10em $orange,
+      8em 10em $orange,
+      9em 10em $white,
+      10em 10em $orange,
+      11em 10em $orange,
+      12em 10em $red,
+      13em 10em $orange,
+      14em 10em $red,
+      15em 10em $red,
+      16em 10em $red,
+
+      2em 11em $red,
+      3em 11em $red,
+      4em 11em $orange,
+      5em 11em $orange,
+      6em 11em $orange,
+      7em 11em $white,
+      8em 11em $orange,
+      9em 11em $white,
+      10em 11em $orange,
+      11em 11em $white,
+      12em 11em $orange,
+      13em 11em $orange,
+      14em 11em $red,
+      15em 11em $red,
+      16em 11em $red,
+
+      2em 12em $red,
+      3em 12em $red,
+      4em 12em $orange,
+      5em 12em $orange,
+      6em 12em $white,
+      7em 12em $white,
+      8em 12em $white,
+      9em 12em $white,
+      10em 12em $white,
+      11em 12em $orange,
+      12em 12em $orange,
+      13em 12em $red,
+      14em 12em $red,
+      15em 12em $red,
+
+      3em 13em $red,
+      4em 13em $red,
+      5em 13em $orange,
+      6em 13em $orange,
+      7em 13em $white,
+      8em 13em $white,
+      9em 13em $white,
+      10em 13em $white,
+      11em 13em $orange,
+      12em 13em $orange,
+      13em 13em $red,
+      14em 13em $red,
+      15em 13em $red,
+
+      3em 14em $red,
+      4em 14em $red,
+      5em 14em $red,
+      6em 14em $orange,
+      7em 14em $orange,
+      8em 14em $orange,
+      9em 14em $orange,
+      10em 14em $orange,
+      11em 14em $red,
+      12em 14em $red,
+      13em 14em $red,
+      14em 14em $red,
+
+      5em 15em $red,
+      6em 15em $red,
+      7em 15em $red,
+      8em 15em $red,
+      9em 15em $red,
+      10em 15em $red,
+      11em 15em $red;
+  }
 }
 
 body {
@@ -165,7 +377,11 @@ button {
   padding: 1em;
   margin-bottom: 1em;
 	font-size: 1rem;
-	font-family: "Avenir", "Avenir Next", sans-serif;
+	
+
+    font-family: 'Press Start 2P', cursive;
+
+
 }
 
 input,

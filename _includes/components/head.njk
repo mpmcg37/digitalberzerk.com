@@ -1,8 +1,11 @@
 <head>
   <meta charset="utf-8">
+
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title or renderData.title or metadata.title }}</title>
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<link href="https://unpkg.com/nes.css@2.2.0/css/nes.min.css" rel="stylesheet" /> 
   {% set css %}
     {% include "assets/css/inline.css" %}
   {% endset %}
@@ -11,4 +14,5 @@
     {% include "assets/js/inline.js" %}
   {% endset %}
   <script>{{ js | jsmin | safe }}</script>
+
 </head>
